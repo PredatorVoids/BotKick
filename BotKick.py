@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Edited from script LineVodka script made by PredatorsVoid
+# Edited from script LineVodka script made by PredatorVoids
 from LineAlpha import LineClient
 from LineAlpha.LineApi import LineTracer
 from LineAlpha.LineThrift.ttypes import Message
@@ -130,7 +130,7 @@ def SEND_MESSAGE(op):
                     print "ok"
                     _name = msg.text.replace("Bantai","")
                     gs = client.getGroup(msg.to)
-                    sendMessage(msg.to,"Kick By PredatorsVoid")
+                    sendMessage(msg.to,"Kick By PredatorVoids")
                     targets = []
                     for g in gs.members:
                         if _name in g.displayName:
